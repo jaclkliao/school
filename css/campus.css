@@ -1,0 +1,104 @@
+.compus_culture {
+	display: flex;
+	justify-content: center;
+	padding: 60px 0 0 0;
+}
+
+.compus_culture .compus_content {
+	display: flex;
+
+}
+
+.compus_content .compus_left {
+	/* flex: 1; */
+}
+
+.compus_content .compus_center {
+	/* flex: 1; */
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px 0 10px;
+}
+
+.compus_center .center_txt {
+	position: relative;
+	width: 260px;
+	padding: 0 0 12px 0;
+	color: #718753;
+	line-height: 30px;
+	z-index: 1;
+}
+
+.compus_center .center_A {
+	position: absolute;
+	font-size: 180px;
+	font-family: "Bernard MT Condensed";
+	color: #fff;
+	margin: -12px 0 0 60px;
+}
+.compus_center .content_img{
+	width: 260px;
+}
+
+.compus_content .compus_right {
+	/* flex: 1; */
+	display: flex;
+	flex-direction: column;
+}
+.compus_right .right_img{
+	width: 260px;
+}
+.compus_right .right_txt{
+	width: 260px;
+	color: #718753;
+	line-height: 30px;
+	position: relative;
+	padding: 40px 0 0 0;
+	z-index: 1;
+}
+.compus_right .right_B{
+	position: absolute;
+	font-size: 170px;
+	font-family: "Bernard MT Condensed";
+	color: #fff;
+	margin: 170px 0 0 60px;
+}
+.compus_lable{
+	display: flex;
+	justify-content: center;
+	padding: 90px 0 0 0;
+}
+.compus_lable .lable_left{
+	padding: 20px 30px;
+	background-color: #fff;
+	margin: 0 5px 0 0;
+}
+.lable_left .left_txt{
+	position: relative;
+	width: 380px;
+	color: #6D8D3E;
+	font-size: 18px;
+	line-height: 30px;
+	z-index: 1;
+}
+.lable_left .left_c{
+	position: absolute;
+	font-family:"Bernard MT Condensed" ;
+	font-size: 370px;
+	margin: -360px 0 0 100px;
+	color: #d3e5b5;
+}
+.compus_lable .lable_right{
+	padding: 0 0 0 70px;
+}
+.lable_right .right_img{
+	position: relative;
+	z-index: 1;
+}
+.lable_right .right_border{
+	position: absolute;
+	width: 530px;
+	height: 340px;
+	border: 5px solid #446022;
+	margin: -320px 0 0 -30px ;
+}

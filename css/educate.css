@@ -1,0 +1,82 @@
+.educate_button{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 0 0 ;
+	font-size: 20px;
+}
+.educate_button .btn_left{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 30px 0 0;
+	padding: 2px 50px;
+	background-color: #50682A;
+	border-radius: 36px;
+}
+.educate_button .btn_right{
+	text-decoration: none;
+	color: #50682A;
+	margin: 0 0 0 30px;
+	padding: 2px 50px;
+	border: 5px solid #50682A;
+	border-radius: 36px;
+}
+.edu_content{
+	display: flex;
+	justify-content: center;
+	padding: 70px 0 0 0 ;
+}
+.edu_content a{
+	text-decoration: none;
+	color: #446022;
+	margin: 0 0 0 450px;
+}
+.edu_content .content_left{
+	padding: 35px 0 0 0;
+}
+.edu_content .content_right{
+	width: 670px;
+	margin: 0 0 0 20px;
+}
+.content_right ul li{
+	font-size: 20px;
+	font-weight: bold;
+	color:#50672f;
+}
+.content_right ul p{
+	color: #6D8D3E;
+}
+.content_right .edu_ul{
+	list-style: none;
+	background-color: #446022;
+	padding: 8px 8px 8px 10px;
+}
+.content_right .edu_ul li{
+	color: #fff;
+	padding: 0 0 0 20px;
+}
+.content_right .edu_ul p{
+	color: #fff;
+	padding: 0 0 0 20px;
+}
+.edu_system{
+	display: flex;
+	justify-content: center;
+	padding: 80px 0 0 0;
+}
+.edu_system .sys_left{
+	text-align: center;
+	font-size: 32px;
+	font-family: "Bernard MT Condensed";
+	color: #446022;
+	padding: 35px 60px 0 0;
+}
+.sys_left .left_leave{
+	display: flex;
+	margin-bottom: -40px;
+}
+.left_leave p{
+	padding: 0 15px;
+}
+.left_leave img{
+	height: 60px;
+}
